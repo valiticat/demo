@@ -1,1 +1,1 @@
-This is my demo repo
+This repo is used to showcase my projects and skills
