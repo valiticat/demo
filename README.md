@@ -1,1 +1,1 @@
-This repo is used to showcase my projects and skills
+This repo is used to showcase my projects
