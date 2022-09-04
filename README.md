@@ -1,1 +1,1 @@
-This is my demo app
+This is my demo repo
