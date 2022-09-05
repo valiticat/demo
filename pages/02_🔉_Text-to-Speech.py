@@ -52,7 +52,8 @@ if input_text != '':
     )
     speech_.write_to_fp(speech)
     
-    playCol, emptyCol = st.columns([0.7, 1.0])
+    playCol, emptyCol = st.columns([1.0, 1.0])
     
     with playCol:
+        st.write("Check ")
         st.audio(speech)
