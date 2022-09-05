@@ -1,0 +1,5 @@
+pymongo==4.1.1
+dnspython==2.2.1
+streamlit==1.11.1
+streamlit_player==0.1.5
+gTTS==2.2.4
