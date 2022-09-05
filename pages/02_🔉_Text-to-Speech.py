@@ -35,11 +35,12 @@ with speed:
         horizontal=True
     )
 
-speech = BytesIO()
-speech_ = gTTS(
-    text=input_text, 
-    lang=select_lang, 
-    slow=False if select_slow == "Normal" else True
-)
-# soundDe.write_to_fp(play_soundDe)
-# st.audio(play_soundDe)
+if input_text != '':
+    speech = BytesIO()
+    speech_ = gTTS(
+        text=input_text, 
+        lang=select_lang, 
+        slow=False if select_slow == "Normal" else True
+    )
+    speech_.write_to_fp(speech)
+    st.audio(speech)
