@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Input text
-st.text_area(
+input_text = st.text_area(
     label="Input your text (max 250 chars)", 
     value="", 
     max_chars=250
@@ -35,8 +35,11 @@ with speed:
         horizontal=True
     )
 
-"This is a text message"
-# play_soundDe = BytesIO()
-# soundDe = gTTS(text=wordAndEg, lang='de', slow=False)
+speech = BytesIO()
+speech_ = gTTS(
+    text=input_text, 
+    lang=select_lang, 
+    slow=False if select_slow == "Normal" else True
+)
 # soundDe.write_to_fp(play_soundDe)
 # st.audio(play_soundDe)
