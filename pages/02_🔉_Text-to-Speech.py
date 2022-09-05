@@ -35,6 +35,7 @@ with speed:
         horizontal=True
     )
 
+"This is a text message"
 # play_soundDe = BytesIO()
 # soundDe = gTTS(text=wordAndEg, lang='de', slow=False)
 # soundDe.write_to_fp(play_soundDe)
