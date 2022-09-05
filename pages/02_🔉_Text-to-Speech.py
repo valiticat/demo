@@ -20,7 +20,7 @@ input_text = st.text_area(
 )
 
 # Select the library and parameters
-libraryCol, langCol, otherCol = st.columns([0.3, 0.3, 1.0])
+libraryCol, langCol, otherCol = st.columns([0.3, 0.5, 1.0])
 
 with libraryCol:
     select_lib = st.selectbox(
